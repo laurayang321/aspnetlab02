@@ -1,0 +1,21 @@
+﻿@model string[]
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+
+
+<ul>
+    @foreach (var f in Model)
+    {
+        string name = Path.GetFileNameWithoutExtension(f);
+        
+        <li>@Html.ActionLink(name, "Content", new { id = name }) </li>      
+
+    }
+</ul>
+
+

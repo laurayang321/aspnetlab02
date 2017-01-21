@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Content";
+}
+
+<h2>Content</h2>
+
+@{ 
+    string file = ViewBag.file;
+
+    string path = Server.MapPath("~/Directory") + "//" + file + ".txt";
+    string content = File.ReadAllText(path);
+    <p>@content</p>
+}
+
+<p>
+    @content
+</p>
+
+
+
