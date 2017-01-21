@@ -12,10 +12,27 @@
     @foreach (var f in Model)
     {
         string name = Path.GetFileNameWithoutExtension(f);
-        
-        <li>@Html.ActionLink(name, "Content", new { id = name }) </li>      
 
+        <li>@Html.ActionLink(name, "Content", new { id = name }) </li>      
+        
     }
 </ul>
 
+<p>
+    @foreach (var f in Model)
+    {
+        <p><b>Server.MapPath:</b>  @f</p>
+
+        string fullPath = Path.GetFullPath(f);
+        <p><b>fullPath: </b>       @fullPath</p>
+
+        string fileName = Path.GetFileName(f);
+        <p><b>fileName: </b>       @fileName</p>
+
+        string directoryName = Path.GetDirectoryName(f);
+        <p><b>directoryName: </b>  @directoryName</p>
+
+        <br />
+    }
+</p>
 

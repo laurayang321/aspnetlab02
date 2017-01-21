@@ -79,4 +79,3 @@ D:\CST\CST - Term 4\COMP 4976 - Web Application with ASP.NET\Labs\Lab2\AspnetLab
 D:\CST\CST - Term 4\COMP 4976 - Web Application with ASP.NET\Labs\Lab2\AspnetLab2\AspnetLab2\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\CST\CST - Term 4\COMP 4976 - Web Application with ASP.NET\Labs\Lab2\AspnetLab2\AspnetLab2\obj\Debug\AspnetLab2.dll
 D:\CST\CST - Term 4\COMP 4976 - Web Application with ASP.NET\Labs\Lab2\AspnetLab2\AspnetLab2\obj\Debug\AspnetLab2.pdb
-D:\CST\CST - Term 4\COMP 4976 - Web Application with ASP.NET\Labs\Lab2\AspnetLab2\AspnetLab2\obj\Debug\AspnetLab2.csprojResolveAssemblyReference.cache
